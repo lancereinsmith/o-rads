@@ -96,19 +96,20 @@ class ORADSApp(toga.App):
 
         # Title
         title = toga.Label(
-            "O-RADS Decision Tree",
+            "O-RADS Scoring Application",
             style=Pack(
                 font_size=24,
                 font_weight=BOLD,
                 color=COLORS["text_primary"],
                 margin_bottom=5,
+                text_align=CENTER,
             ),
         )
         header_box.add(title)
 
         # Subtitle
         subtitle = toga.Label(
-            "Ultrasound Risk Stratification",
+            "Decision flow:",
             style=Pack(
                 font_size=14,
                 color=COLORS["text_secondary"],
