@@ -107,26 +107,26 @@ class ORADSApp(toga.App):
         )
         header_box.add(title)
 
-        # Subtitle
-        subtitle = toga.Label(
-            "Decision flow:",
-            style=Pack(
-                font_size=14,
-                color=COLORS["text_secondary"],
-                margin_bottom=10,
-            ),
-        )
-        header_box.add(subtitle)
+        # # Subtitle
+        # subtitle = toga.Label(
+        #     "Decision flow:",
+        #     style=Pack(
+        #         font_size=14,
+        #         color=COLORS["text_secondary"],
+        #         margin_bottom=10,
+        #     ),
+        # )
+        # header_box.add(subtitle)
 
-        # Breadcrumb container
-        self.breadcrumb_label = toga.Label(
-            "",
-            style=Pack(
-                font_size=11,
-                color=COLORS["text_muted"],
-            ),
-        )
-        header_box.add(self.breadcrumb_label)
+        # # Breadcrumb container
+        # self.breadcrumb_label = toga.Label(
+        #     "",
+        #     style=Pack(
+        #         font_size=11,
+        #         color=COLORS["text_muted"],
+        #     ),
+        # )
+        # header_box.add(self.breadcrumb_label)
 
         self.main_box.add(header_box)
 
@@ -169,16 +169,16 @@ class ORADSApp(toga.App):
 
         self.main_box.add(nav_box)
 
-    def _update_breadcrumbs(self):
-        """Update the breadcrumb trail."""
-        crumbs = self.navigator.get_breadcrumbs()
-        if crumbs:
-            path = " → ".join(crumbs[-3:])  # Show last 3 to avoid overflow
-            if len(crumbs) > 3:
-                path = "... → " + path
-            self.breadcrumb_label.text = path
-        else:
-            self.breadcrumb_label.text = "Start"
+    # def _update_breadcrumbs(self):
+    #     """Update the breadcrumb trail."""
+    #     crumbs = self.navigator.get_breadcrumbs()
+    #     if crumbs:
+    #         path = " → ".join(crumbs[-3:])  # Show last 3 to avoid overflow
+    #         if len(crumbs) > 3:
+    #             path = "... → " + path
+    #         self.breadcrumb_label.text = path
+    #     else:
+    #         self.breadcrumb_label.text = "Start"
 
     def _show_current_question(self):
         """Display the current decision node question and options."""
@@ -220,7 +220,7 @@ class ORADSApp(toga.App):
         options_scroll.content = options_box
         self.content_box.add(options_scroll)
 
-        self._update_breadcrumbs()
+        # self._update_breadcrumbs()
         self._update_navigation_state()
 
     def _create_option_button(
@@ -353,7 +353,7 @@ class ORADSApp(toga.App):
         result_scroll.content = result_box
         self.content_box.add(result_scroll)
 
-        self._update_breadcrumbs()
+        # self._update_breadcrumbs()
         self._update_navigation_state()
 
     def _add_result_section(self, container: toga.Box, title: str, content: str):

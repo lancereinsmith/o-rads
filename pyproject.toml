@@ -17,7 +17,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "pymupdf>=1.26.7",
     "toga>=0.5.3",
 ]
 
