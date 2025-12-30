@@ -49,7 +49,7 @@ ROOT → "Normal ovary / Physiologic cyst"
 | **Management** | None required |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | No ovarian lesion; physiologic cyst (follicle ≤3cm or corpus luteum): (O-RADS 1): No further imaging follow-up. |
+| **IMPRESSION** | No ovarian lesion; physiologic cyst (follicle ≤3cm or corpus luteum) (O-RADS 1): No further imaging follow-up. |
 
 ---
 
@@ -72,7 +72,7 @@ ROOT → "Incomplete study"
 | **Management** | Repeat US study or MRI |
 | **Imaging Follow-up** | Repeat ultrasound study or consider MRI |
 | **Clinical Follow-up** | As clinically indicated |
-| **IMPRESSION** | Lesion features cannot be accurately characterized due to technical factors: (O-RADS 0): Repeat ultrasound study or consider MRI |
+| **IMPRESSION** | Lesion features cannot be accurately characterized due to technical factors (O-RADS 0): Repeat ultrasound study or consider MRI |
 
 ---
 
@@ -97,7 +97,7 @@ ROOT → "Simple cyst" → "≤3 cm" → "Premenopausal"
 | **Management** | None required |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | Simple cyst ≤3cm in premenopausal patient (follicle): (O-RADS 1): No further imaging follow-up. |
+| **IMPRESSION** | Simple cyst ≤3cm in premenopausal patient (follicle) (O-RADS 1): No further imaging follow-up. |
 
 ---
 
@@ -120,7 +120,7 @@ ROOT → "Simple cyst" → "≤3 cm" → "Postmenopausal"
 | **Management** | Routine follow-up |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | Simple cyst ≤3cm in postmenopausal patient: (O-RADS 2): No further imaging follow-up. |
+| **IMPRESSION** | Simple cyst ≤3cm in postmenopausal patient (O-RADS 2): No further imaging follow-up. |
 
 ---
 
@@ -143,7 +143,7 @@ ROOT → "Simple cyst" → ">3 cm to 5 cm" → "Premenopausal"
 | **Management** | Imaging surveillance if postmenopausal |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | Simple cyst >3cm to 5cm: (O-RADS 2): No further imaging follow-up. |
+| **IMPRESSION** | Simple cyst >3cm to 5cm (O-RADS 2): No further imaging follow-up. |
 
 ---
 
@@ -166,7 +166,7 @@ ROOT → "Simple cyst" → ">3 cm to 5 cm" → "Postmenopausal"
 | **Management** | Imaging surveillance if postmenopausal |
 | **Imaging Follow-up** | Follow-up US in 12 months |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | Simple cyst >3cm to 5cm: (O-RADS 2): Follow-up US in 12 months |
+| **IMPRESSION** | Simple cyst >3cm to 5cm (O-RADS 2): Follow-up US in 12 months |
 
 ---
 
@@ -189,7 +189,7 @@ ROOT → "Simple cyst" → ">5 cm but <10 cm"
 | **Management** | Imaging surveillance |
 | **Imaging Follow-up** | Follow-up US in 12 months |
 | **Clinical Follow-up** | As clinically indicated |
-| **IMPRESSION** | Simple cyst >5cm but <10cm: (O-RADS 2): Follow-up US in 12 months |
+| **IMPRESSION** | Simple cyst >5cm but <10cm (O-RADS 2): Follow-up US in 12 months |
 
 ---
 
@@ -212,7 +212,7 @@ ROOT → "Simple cyst" → "≥10 cm"
 | **Management** | Gynecologist consultation; consider follow-up imaging |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not surgically excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Simple cyst ≥10cm: (O-RADS 3): Consider follow-up US within 6 months if not surgically excised |
+| **IMPRESSION** | Simple cyst ≥10cm (O-RADS 3): Consider follow-up US within 6 months if not surgically excised |
 
 ---
 
@@ -239,7 +239,7 @@ ROOT → "Classic benign lesion" → "Hemorrhagic cyst" → "Premenopausal" → 
 | **Management** | None required |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Hemorrhagic cyst ≤5cm, premenopausal: (O-RADS 2): No further imaging follow-up. |
+| **IMPRESSION** | Hemorrhagic cyst ≤5cm, premenopausal (O-RADS 2): No further imaging follow-up. |
 
 ---
 
@@ -262,7 +262,7 @@ ROOT → "Classic benign lesion" → "Hemorrhagic cyst" → "Premenopausal" → 
 | **Management** | Short-term follow-up to confirm resolution |
 | **Imaging Follow-up** | Follow-up US in 2-3 months |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Hemorrhagic cyst >5cm but <10cm, premenopausal: (O-RADS 2): Follow-up US in 2-3 months |
+| **IMPRESSION** | Hemorrhagic cyst >5cm but <10cm, premenopausal (O-RADS 2): Follow-up US in 2-3 months |
 
 ---
 
@@ -285,7 +285,7 @@ ROOT → "Classic benign lesion" → "Hemorrhagic cyst" → "Premenopausal" → 
 | **Management** | Gynecologist consultation |
 | **Imaging Follow-up** | Follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Hemorrhagic cyst ≥10cm: (O-RADS 3): Follow-up US within 6 months if not excised |
+| **IMPRESSION** | Hemorrhagic cyst ≥10cm (O-RADS 3): Follow-up US within 6 months if not excised |
 
 ---
 
@@ -308,7 +308,7 @@ ROOT → "Classic benign lesion" → "Hemorrhagic cyst" → "Early postmenopausa
 | **Management** | Confirm diagnosis; may need additional imaging |
 | **Imaging Follow-up** | Follow-up US in 2-3 months, or US specialist, or MRI |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Hemorrhagic cyst <10cm, early postmenopausal: (O-RADS 2): Follow-up US in 2-3 months, or US specialist, or MRI |
+| **IMPRESSION** | Hemorrhagic cyst <10cm, early postmenopausal (O-RADS 2): Follow-up US in 2-3 months, or US specialist, or MRI |
 
 ---
 
@@ -331,7 +331,7 @@ ROOT → "Classic benign lesion" → "Hemorrhagic cyst" → "Late postmenopausal
 | **Management** | Recategorize lesion using cystic lesion descriptors |
 | **Imaging Follow-up** | Reassess with other lexicon descriptors |
 | **Clinical Follow-up** | Gynecologist consultation recommended |
-| **IMPRESSION** | Should not occur in late postmenopausal; recategorize using other lexicon descriptors: (O-RADS 3): Reassess with other lexicon descriptors |
+| **IMPRESSION** | Should not occur in late postmenopausal; recategorize using other lexicon descriptors (O-RADS 3): Reassess with other lexicon descriptors |
 
 ---
 
@@ -356,7 +356,7 @@ ROOT → "Classic benign lesion" → "Dermoid cyst" → "≤3 cm"
 | **Management** | May consider surveillance |
 | **Imaging Follow-up** | May consider follow-up US in 12 months |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Dermoid cyst ≤3cm: (O-RADS 2): May consider follow-up US in 12 months |
+| **IMPRESSION** | Dermoid cyst ≤3cm (O-RADS 2): May consider follow-up US in 12 months |
 
 ---
 
@@ -379,7 +379,7 @@ ROOT → "Classic benign lesion" → "Dermoid cyst" → ">3 cm but <10 cm"
 | **Management** | Surveillance or surgical excision |
 | **Imaging Follow-up** | Follow-up US in 12 months if not surgically excised |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Dermoid cyst >3cm but <10cm: (O-RADS 2): Follow-up US in 12 months if not surgically excised |
+| **IMPRESSION** | Dermoid cyst >3cm but <10cm (O-RADS 2): Follow-up US in 12 months if not surgically excised |
 
 ---
 
@@ -402,7 +402,7 @@ ROOT → "Classic benign lesion" → "Dermoid cyst" → "≥10 cm"
 | **Management** | Gynecologist consultation; consider surgery or close follow-up |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Dermoid cyst ≥10cm: (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Dermoid cyst ≥10cm (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -427,7 +427,7 @@ ROOT → "Classic benign lesion" → "Endometrioma" → "<10 cm" → "Premenopau
 | **Management** | Surveillance or surgical excision |
 | **Imaging Follow-up** | Follow-up US in 12 months if not surgically excised |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Endometrioma <10cm, premenopausal: (O-RADS 2): Follow-up US in 12 months if not surgically excised |
+| **IMPRESSION** | Endometrioma <10cm, premenopausal (O-RADS 2): Follow-up US in 12 months if not surgically excised |
 
 ---
 
@@ -450,7 +450,7 @@ ROOT → "Classic benign lesion" → "Endometrioma" → "<10 cm" → "Postmenopa
 | **Management** | Confirm diagnosis, then surveillance |
 | **Imaging Follow-up** | Follow-up US in 2-3 months (or specialist/MRI), then 12 months if not excised |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Endometrioma <10cm, postmenopausal (initial): (O-RADS 2): Follow-up US in 2-3 months (or specialist/MRI), then 12 months if not excised |
+| **IMPRESSION** | Endometrioma <10cm, postmenopausal (initial) (O-RADS 2): Follow-up US in 2-3 months (or specialist/MRI), then 12 months if not excised |
 
 ---
 
@@ -473,7 +473,7 @@ ROOT → "Classic benign lesion" → "Endometrioma" → "≥10 cm"
 | **Management** | Gynecologist consultation; consider surgery |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Endometrioma ≥10cm: (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Endometrioma ≥10cm (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -496,7 +496,7 @@ ROOT → "Classic benign lesion" → "Paraovarian cyst"
 | **Management** | None required (extraovarian) |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Simple cyst separate from the ovary: (O-RADS 2): No further imaging follow-up. |
+| **IMPRESSION** | Simple cyst separate from the ovary (O-RADS 2): No further imaging follow-up. |
 
 ---
 
@@ -519,7 +519,7 @@ ROOT → "Classic benign lesion" → "Peritoneal inclusion cyst"
 | **Management** | None required (extraovarian) |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Fluid collection with ovary at margin or suspended within, conforming to adjacent organs: (O-RADS 2): No further imaging follow-up. |
+| **IMPRESSION** | Fluid collection with ovary at margin or suspended within, conforming to adjacent organs (O-RADS 2): No further imaging follow-up. |
 
 ---
 
@@ -542,7 +542,7 @@ ROOT → "Classic benign lesion" → "Hydrosalpinx"
 | **Management** | None required (extraovarian) |
 | **Imaging Follow-up** | None |
 | **Clinical Follow-up** | Gynecologist as needed |
-| **IMPRESSION** | Anechoic, fluid-filled tubular structure (extraovarian): (O-RADS 2): No further imaging follow-up. |
+| **IMPRESSION** | Anechoic, fluid-filled tubular structure (extraovarian) (O-RADS 2): No further imaging follow-up. |
 
 ---
 
@@ -569,7 +569,7 @@ ROOT → "Cystic lesion (non-classic)" → "Yes - solid component(s) present" �
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Unilocular cyst with <4 papillary projections or non-pp solid component: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Unilocular cyst with <4 papillary projections or non-pp solid component (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -592,7 +592,7 @@ ROOT → "Cystic lesion (non-classic)" → "Yes - solid component(s) present" �
 | **Management** | Refer to gynecologic oncologist |
 | **Imaging Follow-up** | Per gyn-oncologist protocol |
 | **Clinical Follow-up** | Gyn-oncologist |
-| **IMPRESSION** | Unilocular cyst with ≥4 papillary projections: (O-RADS 5): Per gyn-oncologist protocol |
+| **IMPRESSION** | Unilocular cyst with ≥4 papillary projections (O-RADS 5): Per gyn-oncologist protocol |
 
 ---
 
@@ -615,7 +615,7 @@ ROOT → "Cystic lesion (non-classic)" → "Yes - solid component(s) present" �
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Bilocular cyst with solid component(s), CS 1-2: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Bilocular cyst with solid component(s), CS 1-2 (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -638,7 +638,7 @@ ROOT → "Cystic lesion (non-classic)" → "Yes - solid component(s) present" �
 | **Management** | Refer to gynecologic oncologist |
 | **Imaging Follow-up** | Per gyn-oncologist protocol |
 | **Clinical Follow-up** | Gyn-oncologist |
-| **IMPRESSION** | Bilocular cyst with solid component(s) and CS 3: (O-RADS 5): Per gyn-oncologist protocol |
+| **IMPRESSION** | Bilocular cyst with solid component(s) and CS 3 (O-RADS 5): Per gyn-oncologist protocol |
 
 ---
 
@@ -663,7 +663,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Uniloc
 | **Management** | Surveillance based on size |
 | **Imaging Follow-up** | Follow-up US in 6-12 months based on size |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | Unilocular smooth non-simple cyst <10cm: (O-RADS 2): Follow-up US in 6-12 months based on size |
+| **IMPRESSION** | Unilocular smooth non-simple cyst <10cm (O-RADS 2): Follow-up US in 6-12 months based on size |
 
 ---
 
@@ -686,7 +686,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Uniloc
 | **Management** | Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Unilocular smooth cyst ≥10cm: (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Unilocular smooth cyst ≥10cm (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -709,7 +709,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Uniloc
 | **Management** | Consider US specialist or MRI; Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Unilocular cyst with irregular inner wall (no solid component): (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Unilocular cyst with irregular inner wall (no solid component) (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -734,7 +734,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Bilocu
 | **Management** | Surveillance |
 | **Imaging Follow-up** | Follow-up US in 6 months |
 | **Clinical Follow-up** | None |
-| **IMPRESSION** | Bilocular smooth cyst <10cm: (O-RADS 2): Follow-up US in 6 months |
+| **IMPRESSION** | Bilocular smooth cyst <10cm (O-RADS 2): Follow-up US in 6 months |
 
 ---
 
@@ -757,7 +757,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Bilocu
 | **Management** | Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Bilocular smooth cyst ≥10cm: (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Bilocular smooth cyst ≥10cm (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -780,7 +780,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Bilocu
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Bilocular cyst with irregular inner wall/septation: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Bilocular cyst with irregular inner wall/septation (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -805,7 +805,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Multil
 | **Management** | Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Multilocular smooth cyst <10cm, CS <4: (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Multilocular smooth cyst <10cm, CS <4 (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -828,7 +828,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Multil
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Multilocular smooth cyst ≥10cm, CS <4: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Multilocular smooth cyst ≥10cm, CS <4 (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -851,7 +851,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Multil
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Multilocular smooth cyst with CS 4: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Multilocular smooth cyst with CS 4 (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -874,7 +874,7 @@ ROOT → "Cystic lesion (non-classic)" → "No - no solid component" → "Multil
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Multilocular cyst with irregular inner wall/septations: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Multilocular cyst with irregular inner wall/septations (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -899,7 +899,7 @@ ROOT → "Solid mass" → "Irregular"
 | **Management** | Refer to gynecologic oncologist |
 | **Imaging Follow-up** | Per gyn-oncologist protocol |
 | **Clinical Follow-up** | Gyn-oncologist |
-| **IMPRESSION** | Solid lesion with irregular contour: (O-RADS 5): Per gyn-oncologist protocol |
+| **IMPRESSION** | Solid lesion with irregular contour (O-RADS 5): Per gyn-oncologist protocol |
 
 ---
 
@@ -924,7 +924,7 @@ ROOT → "Solid mass" → "Smooth" → "Yes - broad/diffuse shadowing" → "CS 1
 | **Management** | Consider US specialist or MRI; Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised; may consider US specialist or MRI |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Solid smooth lesion with CS 1 (no flow), ± shadowing: (O-RADS 3): Consider follow-up US within 6 months if not excised; may consider US specialist or MRI |
+| **IMPRESSION** | Solid smooth lesion with CS 1 (no flow), ± shadowing (O-RADS 3): Consider follow-up US within 6 months if not excised; may consider US specialist or MRI |
 
 ---
 
@@ -947,7 +947,7 @@ ROOT → "Solid mass" → "Smooth" → "Yes - broad/diffuse shadowing" → "CS 2
 | **Management** | Consider US specialist or MRI; Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Solid smooth lesion with shadowing and CS 2: (O-RADS 3): Consider follow-up US within 6 months if not excised |
+| **IMPRESSION** | Solid smooth lesion with shadowing and CS 2 (O-RADS 3): Consider follow-up US within 6 months if not excised |
 
 ---
 
@@ -970,7 +970,7 @@ ROOT → "Solid mass" → "Smooth" → "Yes - broad/diffuse shadowing" → "CS 4
 | **Management** | Refer to gynecologic oncologist |
 | **Imaging Follow-up** | Per gyn-oncologist protocol |
 | **Clinical Follow-up** | Gyn-oncologist |
-| **IMPRESSION** | Solid smooth lesion with CS 4 (very strong flow): (O-RADS 5): Per gyn-oncologist protocol |
+| **IMPRESSION** | Solid smooth lesion with CS 4 (very strong flow) (O-RADS 5): Per gyn-oncologist protocol |
 
 ---
 
@@ -995,7 +995,7 @@ ROOT → "Solid mass" → "Smooth" → "No shadowing" → "CS 1 (no flow)"
 | **Management** | Consider US specialist or MRI; Gynecologist consultation |
 | **Imaging Follow-up** | Consider follow-up US within 6 months if not excised; may consider US specialist or MRI |
 | **Clinical Follow-up** | Gynecologist |
-| **IMPRESSION** | Solid smooth lesion with CS 1 (no flow), ± shadowing: (O-RADS 3): Consider follow-up US within 6 months if not excised; may consider US specialist or MRI |
+| **IMPRESSION** | Solid smooth lesion with CS 1 (no flow), ± shadowing (O-RADS 3): Consider follow-up US within 6 months if not excised; may consider US specialist or MRI |
 
 ---
 
@@ -1018,7 +1018,7 @@ ROOT → "Solid mass" → "Smooth" → "No shadowing" → "CS 2-3 (minimal/moder
 | **Management** | US specialist, MRI, or per gyn-oncologist protocol |
 | **Imaging Follow-up** | Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 | **Clinical Follow-up** | Gynecologist with gyn-oncologist consultation |
-| **IMPRESSION** | Solid smooth lesion, non-shadowing, CS 2: (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
+| **IMPRESSION** | Solid smooth lesion, non-shadowing, CS 2 (O-RADS 4): Options: US specialist, MRI with O-RADS MRI score, or per gyn-oncologist |
 
 ---
 
@@ -1041,7 +1041,7 @@ ROOT → "Solid mass" → "Smooth" → "No shadowing" → "CS 4 (very strong flo
 | **Management** | Refer to gynecologic oncologist |
 | **Imaging Follow-up** | Per gyn-oncologist protocol |
 | **Clinical Follow-up** | Gyn-oncologist |
-| **IMPRESSION** | Solid smooth lesion with CS 4 (very strong flow): (O-RADS 5): Per gyn-oncologist protocol |
+| **IMPRESSION** | Solid smooth lesion with CS 4 (very strong flow) (O-RADS 5): Per gyn-oncologist protocol |
 
 ---
 
@@ -1064,7 +1064,7 @@ ROOT → "Ascites / Peritoneal nodules"
 | **Management** | Refer to gynecologic oncologist |
 | **Imaging Follow-up** | Per gyn-oncologist protocol |
 | **Clinical Follow-up** | Gyn-oncologist |
-| **IMPRESSION** | Ascites and/or peritoneal nodules (not due to other etiologies): (O-RADS 5): Per gyn-oncologist protocol |
+| **IMPRESSION** | Ascites and/or peritoneal nodules (not due to other etiologies) (O-RADS 5): Per gyn-oncologist protocol |
 
 ---
 
